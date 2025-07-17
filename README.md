@@ -1,13 +1,93 @@
-# E-commerce
-This is the dynamic e-commerce website where customer can visit page, search products, register, add to cart, purchase products with Stripe payment system and it also have admin panel where admin can add, delete, update -- post, site &amp; user. Also we provide repairing service where user can check their offers based on their purchase.
+Here’s a clean and professional `README.md` that you can use for your rebranded **E-commerce** project on GitHub.
 
-# Database configuration
-We have provided you a database file (.sql) inside database file folder from there you can configure database inside your localhost what you need to do is
-you just have to go to loacalhost phpmyadmin from there you need to create database with name electric-shop after creating database go inside that 
-database then go to import section and there you will see select file then select that electric-shop.sql file then click go button below.It's done congrats.
+---
 
-# Stripe Configuration
-We have already provide stripe config file. You have to change the publishable and secret key with your own stripe account key.
-And Notice that you may be sufferring from stripe error.
-It's because stripe files isn't uploaded to this github due to some issues. So we have provided you zip file of stripe and vendor folder inside stripe.zip. So you need to unzip that stripe.zip file and place that stripe and vendor folder inside root folder. Finally stripe payment gateway will work.
+### ✅ Updated `README.md` (no screenshots, no license, includes your email):
+
+````markdown
+# E-commerce Website
+
+This is a full-featured E-commerce web application developed using PHP, HTML, CSS, JavaScript, and MySQL. It includes both the customer-facing shopping interface and a supplier/admin backend to manage products, orders, and inventory.
+
+---
+
+## 🔧 Features
+
+### Customer Side
+- Browse products by category
+- Add products to cart
+- Checkout process
+- User registration and login
+- Order history
+
+### Supplier/Admin Side
+- Admin dashboard
+- Product management (add, edit, delete)
+- Order management
+- User management
+- Inventory tracking
+- Daily sales overview
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Backend**: PHP
+- **Database**: MySQL
+- **Admin Template**: Material Dashboard
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/subh117/E-commerce.git
+````
+
+2. Set up your local web server (e.g., using XAMPP).
+
+3. Place the project folder inside the `htdocs` directory.
+
+4. Import the database file:
+
+   * Open **phpMyAdmin**
+   * Create a new database (e.g., `ecommerce_db`)
+   * Import the provided `.sql` file (if available)
+
+5. Configure the database connection:
+
+   * Go to `includes/db.php`
+   * Update the DB credentials (`hostname`, `username`, `password`, `database`)
+
+6. Start Apache and MySQL from XAMPP and run the app in your browser:
+
+   ```
+   http://localhost/E-commerce/
+   ```
+
+---
+
+## 📩 Contact
+
+For questions or support, feel free to reach out:
+
+📧 [subhambehera117@gmail.com](mailto:subhambehera117@gmail.com)
+
+````
+
+---
+
+### ✅ How to Use It:
+
+1. Create or edit the `README.md` file in your project root.
+2. Paste the above content.
+3. Commit and push:
+
+```bash
+git add README.md
+git commit -m "Updated README with project info and contact"
+git push
+````
 
